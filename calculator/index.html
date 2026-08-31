@@ -1,0 +1,55 @@
+<script>
+do{
+    var firstNumber = parseInt(prompt('input first number')) 
+} while(isNaN(firstNumber));
+
+do{
+     var SecondNumber = parseInt(prompt('input second number'))
+} while(isNaN(SecondNumber));
+ 
+    do {
+    var Operator = prompt("Pilih operator (-,+,*,/)");
+    if (
+        Operator != '+' &&
+        Operator != '-' &&
+        Operator != '*' &&
+        Operator != '/'
+    ) {
+        alert('invalid Operator');
+    }
+} while(
+        Operator != '+' &&
+        Operator != '-' &&
+        Operator != '*' &&
+        Operator != '/'
+);
+    if(Operator == '+'){
+        alert(firstNumber + SecondNumber)
+    } else if(Operator === "-") {
+        alert(firstNumber - SecondNumber)
+    } else if  (Operator === "*"){
+        alert(firstNumber * SecondNumber)
+    } else if (operator === '/'){
+        alert(firstNumber / SecondNumber)
+    } else if (operator != '-' || operator != '+' || operator != '*' || operator != '/'){
+        alert("try again")
+    }
+    7
+
+ </script>
+
+<!-- 
+<script>
+    const firstNumber = parseInt(prompt('input first number'))
+    const SecondNumber = parseInt(prompt('input second number'))
+    const operator = (prompt('input operator +,-,*,/'))
+
+    switch (operator){
+    case '+':
+        alert(firstNumber + SecondNumber)
+        break
+    }
+
+    
+
+</script> -->
