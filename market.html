@@ -1,0 +1,28 @@
+<script>
+    const products = [
+        {
+            name : "indomie goreng",
+            price : 3000,
+            stocks : 250,
+        },
+        {
+            name : "ultra milk ",
+            price : 6000,
+            stocks : 150,
+        },
+        {
+            name : "pepsodent",
+            price : 8000,
+            stocks : 100
+        },
+    ];
+    let productlist = ''
+
+    products.forEach((item, index) => {
+        productlist += `${index + 1}. ${item?.name} 
+        Harga: Rp.${item?.price.toLocaleString("id-ID")} 
+        Stok: ${item?.stocks}\n`
+        });
+    prompt(productlist)
+    
+</script>
