@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: arial,sans-serif;
+}
+.card{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+}
+
+.product-info{
+    padding: 15px;
+}
+
+.product-info h2 {
+    margin-top: 0;
+    color: grey;
+}
+
+.product-info p{
+    color: rgba(128, 128, 128, 0);
+}
+
+.product-info h3{
+    font-size: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+    font: ;
+}
